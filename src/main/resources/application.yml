@@ -1,0 +1,8 @@
+#mailServer:
+#  host: smtp.gmail.com
+#  port: 587
+#  email: lethanhdat210520@gmail.com
+#  password: lethanhdat18042000
+#  protocol: smtp
+#  isSSL: false
+#
