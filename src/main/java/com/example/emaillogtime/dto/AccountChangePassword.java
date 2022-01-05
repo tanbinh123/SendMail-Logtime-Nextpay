@@ -13,6 +13,8 @@ import javax.validation.constraints.Size;
 @NoArgsConstructor
 public class AccountChangePassword {
     private Long id;
+    @NotBlank(message = "mat khau khong duoc bo trong")
+    @Size(min = 6, max = 255,message = "do dai mat khau phai co do dai tu 6-255 ky tu")
     private String passwordOld;
     @NotBlank(message = "mat khau khong duoc bo trong")
     @Size(min = 6, max = 255,message = "do dai mat khau phai co do dai tu 6-255 ky tu")
