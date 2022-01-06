@@ -13,6 +13,7 @@
     <groupId>com.example</groupId>
     <artifactId>Email-Logtime</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>Email-Logtime</name>
     <description>Demo project for Spring Boot</description>
     <properties>
